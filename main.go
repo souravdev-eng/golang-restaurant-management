@@ -1,6 +1,8 @@
 package main
 
 import (
+	"github/souravdev-eng/resturant/database"
+	"github/souravdev-eng/resturant/middlewares"
 	"github/souravdev-eng/resturant/routes"
 	"os"
 
