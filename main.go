@@ -2,7 +2,7 @@ package main
 
 import (
 	"github/souravdev-eng/resturant/database"
-	"github/souravdev-eng/resturant/middlewares"
+	// "github/souravdev-eng/resturant/middlewares"
 	"github/souravdev-eng/resturant/routes"
 	"os"
 
@@ -22,7 +22,7 @@ func main() {
 
 	router.Use(gin.Logger())
 	routes.UserRoutes(router)
-	router.Use(middlewares.Authentication())
+	// router.Use(middlewares.Authentication())
 
 	routes.FoodRoutes(router)
 	routes.MenuRoutes(router)
